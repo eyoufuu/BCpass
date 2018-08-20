@@ -1,0 +1,22 @@
+<!--pages/test.wxml-->
+
+<view class='page footer'>
+  <image src='/imgs/logo.png' class='img'></image>
+  <view class='page__bd page__bd_spacing'>
+    <view class='weui-footer'>
+      <text class='weui-footer__text'>Copyright@Iotpay</text>
+    </view>
+    <view class='weui-footer'>
+      <text class='weui-footer__text'>加入我们： </text>
+      <text class='weui-footer__link'  selectable="true">vivian@iotpay.ca</text>
+    </view>
+    <view class='weui-footer'>
+      <text class='weui-footer__text'>联系我们： </text>
+      <text class='weui-footer__link'  selectable="true">+1 (604) 2833268</text>
+    </view>
+    <view class='weui-footer'>
+      <text class='weui-footer__text'>地址： </text>
+      <text class='weui-footer__link'   selectable="true">185-5489 Byrne Rd Burnaby BC</text>
+    </view>
+  </view>
+</view>

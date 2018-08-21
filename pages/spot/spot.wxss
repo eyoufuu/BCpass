@@ -1,0 +1,107 @@
+/* category.wxss */
+@import '../../utils/bootstrap.wxss';
+@import '../../utils/fontaws.wxss';
+
+.moreclasp{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 600rpx;
+}
+.discount{
+  width: inherit;
+  background-color: green;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 6rpx;
+}
+.phone {
+  z-index: 9999;
+  position: absolute;
+  right: 20rpx;
+  top:20rpx;
+  /* bottom: 90rpx; */
+  font-size: 60rpx;
+  color: skyblue;
+}
+
+.img{
+  height: 160rpx;
+  width: 160rpx;
+}
+
+.weui-media-box__title {
+  font-family: "Microsoft Yahei";
+  padding-bottom: 10rpx;
+}
+
+.page__hd {
+  padding-top: 20rpx;
+  padding-bottom: 5rpx;
+  border-bottom: 1px solid lightgray;
+}
+
+.icons {
+	height: 180rpx;
+	padding: 20rpx 10rpx;
+	padding-bottom: 0;
+}
+
+.blockview_hide{
+ display: none;
+}
+.blockview_show{
+ display: block;
+}
+
+
+.schoollist-head-img{
+  width: 100%;
+  height: 180rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.schoollist{
+  margin-top: 20rpx;
+  
+}
+.school-list-info{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.school-list-photo{
+  width: 350rpx;
+  height: 250rpx;
+}
+.school-list-desc{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 94%;
+  text-align: center;
+  font-size: 25rpx;
+  padding: 10rpx;
+  opacity: 0.7;
+}
+.city-add {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+
+.itembackground {
+	background: #fff;
+	border-bottom: 1rpx solid #dedede;
+	margin-bottom: 15rpx;
+	padding: 20rpx;
+}
+page{
+  background-color: white;
+}

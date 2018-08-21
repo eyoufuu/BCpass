@@ -106,7 +106,7 @@ Page({
     var id = this.data.id
    
     wx.request({
-      url: 'http://localhost/restaurand.php?city=' + id,   
+      url: 'http://localhost/restaurant.php?city=' + id,   
       method: 'GET',
       success: function (res) {    
         console.log(res.data),          

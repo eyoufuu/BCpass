@@ -21,7 +21,7 @@ Page({
     var id = this.data.id
 
     wx.request({
-      url: 'http://localhost/test.php?detail=' + id,
+      url: 'http://localhost/restaurand.php?detail=' + id,
       method: 'GET',
       success: function (res) {
         console.log(res.data),

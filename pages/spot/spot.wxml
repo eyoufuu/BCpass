@@ -1,0 +1,25 @@
+<view style='margin-top:100rpx'>
+<block wx:for="{{grids1}}" wx:key="*this">
+  <view class="school-list">
+    <navigator >
+      <view bindtap="godetail" class="school-list-info" id="{{item.id}}">
+        <image class="school-list-photo" src="{{item.image1}}" />
+        <text class="school-list-desc">{{item.name}}</text>
+      </view>
+    </navigator>
+  </view>
+</block>
+</view>
+
+<view style='position:fixed; top:0; width:100%'>
+<view class="section">
+
+  <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="page__hd">
+      <view class="picker">
+        城市: {{array[index]}}
+      </view>
+    </view>
+  </picker>
+</view>
+</view>

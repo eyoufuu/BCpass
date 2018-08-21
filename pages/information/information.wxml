@@ -17,7 +17,7 @@
       <text class="title"  selectable="true">地址: {{grids1.location}}</text>
     </view>
     <view>
-      <text class="sub-title">{{grids1.description}}</text>
+      <text class="sub-title" decode="nbsp">{{grids1.description}}</text>
     </view>
 
   </view>

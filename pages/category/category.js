@@ -31,7 +31,7 @@ Page({
     var id = this.data.id
     console.log('picker为',id)
     wx.request({
-      url: 'http://wx.vancent.net/bcpass/test.php?city=' + id,
+      url: 'http://localhost/test.php?city=' + id,
       method: 'GET',
       success: function (res) {
         console.log(res.data),
@@ -106,7 +106,7 @@ Page({
     var id = this.data.id
    
     wx.request({
-      url: 'http://wx.vancent.net/bcpass/test.php?city=' + id,   
+      url: 'http://localhost/test.php?city=' + id,   
       method: 'GET',
       success: function (res) {    
         console.log(res.data),          

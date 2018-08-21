@@ -58,7 +58,7 @@
 				</view>
 	
      <view class="icon" >
-        <navigator url='../programs/programs'>
+        <navigator url='../spot/spot'>
 					<view  id="More" >
             <image src="/imgs/index/icon_7.jpg"/>
 					</view>

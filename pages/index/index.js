@@ -41,7 +41,7 @@ Page({
       title: 'Loading...',
     })
     wx.request({
-      url: 'http://wx.vancent.net/bcpass/test2.php',
+      url: 'http://wx.vancent.net/bcpass/recentactives.php',
       //url: 'https://aws.canberracircle.com/yp/api/activity',
       success: function(res) {
         var newbanners = [];

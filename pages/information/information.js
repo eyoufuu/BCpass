@@ -4,10 +4,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    id: 0,
+    index: 0,
     grids1: [
       { id: 0, city: 1, cat: 1, name: 'aaa', location: 'bbb', image1: '', image2: '', description: '' }
-    ]
+    ],
+    kindindex:0,
+    kind:['restaurant','service','shopping','spot']
   },
 
   /**
@@ -15,13 +17,13 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      id: options.id
+      index: options.id,
+      kindindex: options.kindindex
     })
     var that = this
-    var id = this.data.id
-
+    var cat = that.data.kind[that.data.kindindex]
     wx.request({
-      url: 'http://localhost/restaurand.php?detail=' + id,
+      url: 'http://wx.vancent.net/bcpass/'+cat+'.php?detail=' + that.data.index,
       method: 'GET',
       success: function (res) {
         console.log(res.data),

@@ -1,18 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/shop/shop",
     "pages/mine/mine",
     "pages/restaurant/restaurant",
     "pages/map/map",
     "pages/collect/collect",
     "pages/articles/articles",
-    "pages/test/test",
     "pages/menu/menu",
     "pages/information/information",
     "pages/service/service",
     "pages/shopping/shopping",
-    "pages/spot/spot"
+    "pages/spot/spot",
+    "pages/contact/contact"
   ],
   "window": {
     "navigationBarBackgroundColor": "#334a86",

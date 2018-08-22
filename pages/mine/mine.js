@@ -13,10 +13,12 @@ Page({
 		});
 		console.log(this.data.userInfo);
 	},
+  /*
   goCollect: function () {
     wx.navigateTo({
       url: '../collect/collect',
     })
   }
+  */
 });
 
